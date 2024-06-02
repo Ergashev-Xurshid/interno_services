@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* header */
+header {
+  margin-top: 44px;
+}
+
+.logo {
+  display: flex;
+  gap: 5px;
+}
+
+.logo img {
+  width: 34px;
+  height: 34px;
+}
+
+.header_item {
+  display: flex;
+  list-style: none;
+}
+
+.header_link {
+  text-decoration: none;
+  padding: 2px 31px;
+  color: #292F36;
+}
+
+.banner {
+  margin-top: 45px;
+}
+
+.main {
+  margin: 200px 0;
+}
+
+.box_1 {
+  text-align: center;
+  padding: 80px 20px;
+  margin: 0 auto;
+}
+
+.box_1_title {
+  width: 233px;
+  height: 31px;
+  font-family: "DM Serif Display", serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 31.25px;
+  text-align: center;
+  margin: 20px auto;
+
+}
+
+.box_1_text {
+  width: 358px;
+  height: 99px;
+  font-family: "DM Serif Display", serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.box_1_link {
+  text-align: center;
+  width: 93px;
+  height: 23px;
+  text-decoration: none;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.5px;
+  color: #4D5053;
+}
+
+.back {
+  background-color: #F4F0EC;
+  border-radius: 30px;
+}
+
+.footer-title {
+  font-family: "DM Serif Display", serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 62.5px;
+  text-align: center;
+  margin-bottom: 11px;
+  color: white;
+}
+
+.footer-text {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.foot_link {
+  width: 237px;
+  height: 75px;
+  border-radius: 18px;
+  margin: 0 auto;
+  padding: 26px 36px;
+  text-decoration: none;
+  color: white;
+  background-color: #CDA274;
+}
+
+.foot {
+  width: 1190px;
+  height: 370px;
+  text-align: center;
+  margin: 200px auto;
+  border-radius: 70px;
+  background-color: #292F36;
+  padding: 80px 300px;
+}
+
+
+
+/* footer */
+
+.footer {
+  margin-top: 200px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.logo_text {
+  margin-top: 18px;
+  width: 393px;
+  height: 66px;
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  margin-bottom: 31px;
+}
+
+.tar {
+  margin-right: 35px;
+}
+
+.f_nav {
+  list-style: none;
+}
+
+.f_link {
+  text-decoration: none;
+  color: #4D5053;
+}
+
+.f_con {
+  width: 255px;
+}
+
+.f_item {
+  margin-bottom: 20px;
+}
+
+.footer_aloqa {
+  width: 752px;
+  height: 33px;
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  color: #4D5053;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 174px;
+}
+
+.how {
+  width: 950px;
+  height: 2300px;
+  margin: 0 auto;
+}
+
+.box-1-content_icon {
+  display: flex;
+}
+
+.box-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+
+.box-1-content_icon {
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.box-1-1 img {
+  border-radius: 0px 150px 0 300px;
+}
+
+.box-1-content_icon img {
+  width: 107px;
+  height: 102px;
+}
+
+.box-1-content_icon_num {
+  width: 107px;
+  height: 102px;
+  font-family: "DM Serif Display", serif;
+  font-size: 120px;
+  font-weight: 400;
+  line-height: 110px;
+  color: white;
+}
+
+.box-1-content_title-title {
+  width: 288px;
+  height: 44px;
+  font-family: "DM Serif Display", serif;
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 11px;
+
+}
+
+.box-1-content_title-text {
+  width: 456px;
+  height: 99px;
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+.how_title {
+  padding-top: 20px;
+  font-family: "DM Serif Display", serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 62.5px;
+  text-align: center;
+}
+
+.how_text {
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.title{
+  margin: 0 auto;
+}
+
+.backround{
+  width: 1200px;
+  height: 2400px;
+  margin: 0 auto;
+  background-color: #F4F0EC;
+  border-radius: 70px;
+  
+}
